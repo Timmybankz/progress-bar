@@ -1,0 +1,30 @@
+p {
+	font-size: 20px;
+}
+
+.container {
+	background-color: rgb(192, 192, 192);
+	width: 80%;
+	border-radius: 15px;
+}
+
+.bar {
+	color: black;
+	padding: 1%;
+	text-align: right;
+	margin-top: 1em;
+	font-size: 14px;
+	border-radius: 15px;
+	width: 50%;
+}
+
+button {
+	border: none;
+	margin-top: 1rem;
+	border-radius: 5px;
+	color: white;
+	background-color: rgb(116, 194, 92);
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}

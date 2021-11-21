@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Design a Progress bar</title>
+	</head>
+	<body>
+		<h1>Progress Bar</h1>
+		<div class="container">
+			<div class="bar" style="background-color: green">50%</div>
+		</div>
+		<div class="container">
+			<div class="bar" style="background-color: red">50%</div>
+		</div>
+		<div class="container">
+			<div class="bar" style="background-color: white">50%</div>
+		</div>
+		<div class="container">
+			<div class="bar" style="background-color: blue">50%</div>
+		</div>
+		<div class="container">
+			<div class="bar" style="background-color: yellow">50%</div>
+		</div>
+		<button onclick="increase()">Click me</button>
+	</body>
+	<script>
+		function increase() {
+			const progressBars = document.querySelectorAll('.bar');
+			progressBars.forEach(progressBar => {
+				progressBar.style.width = '100%';
+				progressBar.innerHTML = '100%';
+			});
+		}
+	</script>
+</html>
